@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="Kontrol3KMM.css"> 
+</head>
+<body>
+    <h1>Контрольна робота №3</h1>
+    <h2>Ковальчука Миколи Миколайовича</h2>
+    <div class="calculator">
+        <div class="input">
+            <input type="number" id="num1" placeholder="Перше число">
+            <input type="number" id="num2" placeholder="Друге число">
+        </div>
+        <div class="operations">
+            <button id="add">+</button>
+            <button id="subtract">-</button>
+            <button id="multiply">*</button>
+            <button id="divide">/</button>
+            <button id="log">log</button>
+            <button id="sin">sin</button>
+            <button id="tan">tan</button>
+        </div>
+        <div class="result">
+            <p>Результат: <span id="result">0</span></p>
+        </div>
+    </div>
+    <div id="operation-info">
+        <img id="operation-image" src="" alt="">
+        <h3 id="operation-title"></h3>
+        <p id="operation-description"></p>
+    </div>
+
+    <script src="Kontrol3KMM.js"></script>
+</body>
+</html>

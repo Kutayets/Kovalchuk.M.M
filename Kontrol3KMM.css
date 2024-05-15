@@ -1,0 +1,25 @@
+body {
+    text-align: center; 
+}
+
+.calculator {
+    display: inline-block; 
+    text-align: left; 
+    margin-top: 20px; 
+}
+
+.result {
+    margin-top: 10px; 
+}
+
+.result p {
+    margin: 0; 
+}
+
+.input, .operations {
+    margin-bottom: 10px; 
+}
+
+.operations button {
+    margin: 0 5px; 
+}
